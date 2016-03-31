@@ -13,13 +13,13 @@ name:                printf-safe
 version:             0.1.0.0
 
 -- A short (one-line) description of the package.
-synopsis:            Typesafe frontend for Text.Printf
+synopsis:            Type safe interface for Text.Printf
 
 -- A longer description of the package.
--- description:         
+description:         A type-safe interface for Text.Printf that ensures at compile-time that the number and type of arguments passed to printf matches the format specifier.
 
 -- The license under which the package is released.
-license:             GPL-3
+license:             BSD3
 
 -- The file containing the license text.
 license-file:        LICENSE
@@ -57,7 +57,7 @@ library
   other-extensions:    DataKinds, TypeOperators, TypeFamilies, PolyKinds, UndecidableInstances, FlexibleInstances, FlexibleContexts, ScopedTypeVariables, ExistentialQuantification, LambdaCase
   
   -- Other library packages from which modules are imported.
-  build-depends:       base >=4.8 && <= 4.9
+  build-depends:       base >=4.8 && <4.9
   
   -- Directories containing source files.
   hs-source-dirs:      src
