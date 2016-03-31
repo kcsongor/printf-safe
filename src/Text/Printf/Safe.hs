@@ -34,6 +34,7 @@
 -- Template' proxy (as they are not of kind *), and those terms can then be
 -- further composed with each other.
 -----------------------------------------------------------------------------
+
 module Text.Printf.Safe
     (
     -- * Safe printf
