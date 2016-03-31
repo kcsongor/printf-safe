@@ -13,7 +13,7 @@
 -- |
 -- Module      :  Text.Printf.Safe
 -- Copyright   :  (C) 2016 Csongor Kiss
--- License     :  GPL-3
+-- License     :  BSD3
 -- Maintainer  :  Csongor Kiss <kiss.csongor.kiss@gmail.com>
 -- Stability   :  experimental
 -- Portability :  portable
