@@ -1,6 +1,8 @@
 # printf-safe
 Type safe, composable interface for Text.Printf.
 
+Available on [hackage](http://hackage.haskell.org/package/printf-safe)
+
 A type-safe interface for Text.Printf that ensures at compile-time that the number and type of arguments passed to printf matches the format specifier.
 
 It lacks a lot of features from Text.Printf, but a basic set is supported, and done so in a type-safe manner.
