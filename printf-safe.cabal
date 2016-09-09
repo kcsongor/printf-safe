@@ -57,7 +57,7 @@ library
   other-extensions:    DataKinds, TypeOperators, TypeFamilies, PolyKinds, UndecidableInstances, FlexibleInstances, FlexibleContexts, ScopedTypeVariables, ExistentialQuantification, LambdaCase
   
   -- Other library packages from which modules are imported.
-  build-depends:       base >=4.8 && <4.9
+  build-depends:       base >=4.8 && < 5.0
   
   -- Directories containing source files.
   hs-source-dirs:      src
